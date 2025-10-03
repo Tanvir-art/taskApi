@@ -11,8 +11,8 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }));
 app.use(cors({
   // origin: 'http://localhost:3000', 
-  origin: 'http://localhost:5173',
-  credentials: true // important to send cookies
+  origin: 'https://task-api-frontend-git-main-tanvir-haans-projects.vercel.app',
+  credentials: true  
 }));
 
 app.use('/api', router );
