@@ -11,7 +11,7 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }));
 app.use(cors({
   // origin: 'http://localhost:3000', 
-  origin: 'https://task-api-frontend-git-main-tanvir-haans-projects.vercel.app',
+  origin: 'https://task-api-frontend.vercel.app',
   credentials: true  
 }));
 
