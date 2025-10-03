@@ -10,7 +10,7 @@ const options = {
             version: "1.0.0",
             description: "User and Task Management API",
         },
-        servers: [{ url: "http://localhost:3000" }],
+        servers: [{ url: "https://taskapi-h7dd.onrender.com" }],
         components: {
             securitySchemes: {
                 bearerAuth: {
